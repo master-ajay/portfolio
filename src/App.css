@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fafaff;
+  font-weight: 400;
+}
+
+.FaBars {
+  display: none;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+
+.CloseIcon {
+  font-size: 2rem;
+  color: #fff;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+}
+
+.padding{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
