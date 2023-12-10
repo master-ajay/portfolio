@@ -25,7 +25,7 @@ function About() {
             I have become confident using the following technologies.
           </Box>
           <Box className={classes.Technologies}>
-            {stackList.map((stack, index) => (
+            {stackList.map((stack) => (
               <Box className={classes.Tech}>
                 <Avatar
                   className={classes.TechImg}

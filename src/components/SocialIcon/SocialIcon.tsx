@@ -1,5 +1,4 @@
 import { Box, Link, List, ListItem } from "@mui/material";
-import React from "react";
 import { useStyles } from "./config";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 

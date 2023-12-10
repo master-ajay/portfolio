@@ -1,11 +1,10 @@
-import { Theme } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 
 // interface SideBarProps {
 //   isOpen: boolean;
 // }
 
-export const useStyles = makeStyles((theme: Theme) => ({
+export const useStyles = makeStyles(() => ({
   SideBar: {
     background: "#151418",
     position: "fixed",

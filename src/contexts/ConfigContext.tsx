@@ -1,7 +1,7 @@
 import { createContext, ReactNode } from 'react';
 
 // project import
-import config from 'config';
+import config from '../config';
 import useLocalStorage from '../hooks/useLocalStorage';
 
 // types
@@ -10,14 +10,14 @@ import { CustomizationProps, FontFamily, I18n, MenuOrientation, PresetColor, The
 // initial state
 const initialState: CustomizationProps = {
   ...config,
-  onChangeContainer: () => {},
-  onChangeLocalization: (lang: I18n) => {},
-  onChangeMode: (mode: ThemeMode) => {},
-  onChangePresetColor: (theme: PresetColor) => {},
-  onChangeDirection: (direction: ThemeDirection) => {},
-  onChangeMiniDrawer: (miniDrawer: boolean) => {},
-  onChangeMenuOrientation: (menuOrientation: MenuOrientation) => {},
-  onChangeFontFamily: (fontFamily: FontFamily) => {}
+  onChangeContainer: () => { },
+  onChangeLocalization: () => { },
+  onChangeMode: () => { },
+  onChangePresetColor: () => { },
+  onChangeDirection: () => { },
+  onChangeMiniDrawer: () => { },
+  onChangeMenuOrientation: () => { },
+  onChangeFontFamily: () => { },
 };
 
 // ==============================|| CONFIG CONTEXT & PROVIDER ||============================== //

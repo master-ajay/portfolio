@@ -122,7 +122,7 @@ const ScrollAnimation = keyframes`
   }
 `;
 
-export const ScrollDown = styled(ScrollLink)(({ theme }) => ({
+export const ScrollDown = styled(ScrollLink)(() => ({
   marginTop: "3rem",
   display: "flex",
   justifyContent: "flex-start",

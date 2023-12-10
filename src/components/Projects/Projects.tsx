@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import { useStyles } from "./config";
 

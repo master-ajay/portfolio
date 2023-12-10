@@ -9,7 +9,7 @@ import useConfig from '../hooks/useConfig';
 import Palette from './palette';
 import Typography from './typography';
 import CustomShadows from './shadows';
-import componentsOverride from './overrides';
+// import componentsOverride from './overrides';
 
 // types
 import { CustomShadowProps } from '../types/theme';
@@ -27,7 +27,7 @@ export default function ThemeCustomization({ children }: ThemeCustomizationProps
   const theme: Theme = useMemo<Theme>(() => Palette(mode, presetColor), [mode, presetColor]);
 
   const themeTypography: TypographyVariantsOptions = useMemo<TypographyVariantsOptions>(
-    () => Typography(mode, fontFamily, theme),
+    () => Typography(fontFamily),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [mode, fontFamily]
   );
@@ -60,7 +60,7 @@ export default function ThemeCustomization({ children }: ThemeCustomizationProps
   );
 
   const themes: Theme = createTheme(themeOptions);
-  themes.components = componentsOverride(themes);
+  // themes.components = componentsOverride(themes);
 
   return (
     <StyledEngineProvider injectFirst>
