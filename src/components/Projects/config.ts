@@ -15,7 +15,7 @@ export const useStyles = makeStyles(() => ({
     marginBottom: `3.5rem`,
   },
   Container: {
-    width: `100%`,
+    // width: `100%`,
     marginRight: `auto`,
     marginLeft: `auto`,
     paddingLeft: "1rem",
