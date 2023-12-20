@@ -32,7 +32,7 @@ function Hero() {
                   },
                 }}
               >
-                Hi, I'm Ajay
+                Hi, I'm Ajay Rawat
               </Typography>
               <Typography
                 variant="h5"
