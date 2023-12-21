@@ -31,7 +31,8 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "/" # Built app content directory - optional
         env:
-          NPM_CONFIG_FORCE: true 
+          NPM_CONFIG_FORCE: true
+          NODE_OPTIONS: '-max_old_space_size=8192' 
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
