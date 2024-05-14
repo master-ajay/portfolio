@@ -2,8 +2,7 @@ import { Box, Link } from "@mui/material";
 import { useStyles } from "./config";
 import { FaTimes } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
-import Resume from "../../assets/Resume.pdf";
-
+import Resume from '../../assets/Resume.pdf'
 interface DropdownProps {
   isOpen: boolean;
   toggle: () => void;
