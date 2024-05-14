@@ -2,7 +2,7 @@ import { Box, Link } from "@mui/material";
 import { useStyles } from "./config";
 import { FaBars } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
-import Resume from "../../assets/Resume1.pdf";
+import Resume from "../../assets/Resume.pdf";
 // import { Link } from "react-router-dom";
 
 interface HeaderProps {
